@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "ES2022",
+    "removeComments": true,
+    "target": "ESNext",
+    "noEmitOnError": true,
+    "rootDir": "./src",
+    "outDir": "./build/",
+    "allowJs": false,
+    "skipLibCheck": true
+  }
+}

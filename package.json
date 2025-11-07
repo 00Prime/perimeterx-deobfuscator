@@ -1,0 +1,49 @@
+{
+  "name": "perimeterx-deobfuscator",
+  "version": "1.0.0",
+  "description": "A powerful JavaScript/TypeScript deobfuscator for PerimeterX obfuscated code using AST manipulation and VM execution",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node build/index.js",
+    "magic": "node build/magickey.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deobfuscator",
+    "javascript",
+    "typescript",
+    "perimeterx",
+    "ast",
+    "babel",
+    "code-analysis",
+    "reverse-engineering",
+    "obfuscation"
+  ],
+  "author": "00Prime",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00Prime/perimeterx-deobfuscator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/00Prime/perimeterx-deobfuscator/issues"
+  },
+  "homepage": "https://github.com/00Prime/perimeterx-deobfuscator#readme",
+  "dependencies": {
+    "@babel/generator": "^7.23.5",
+    "@babel/parser": "^7.23.5",
+    "@babel/traverse": "^7.23.5",
+    "@babel/types": "^7.23.5",
+    "axios": "^1.6.2",
+    "fs": "^0.0.1-security",
+    "typescript": "^5.8.3",
+    "vm2": "^3.9.19"
+  },
+  "devDependencies": {
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__traverse": "^7.20.7",
+    "@types/node": "^20.10.4"
+  }
+}
